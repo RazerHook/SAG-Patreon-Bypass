@@ -11,5 +11,7 @@
 (function() {
     'use strict';
     $('#patreon_signin').html('Bypass by <a href="https://razerhook.ml">RazerHook.ML</a> Team! Get good, Get RazerHook!')
-    setTimeout(() => $('#accgen_ui').show(), 500)
+    setTimeout(() => {
+        $('#accgen_ui').show();$('#generate_button').show();$('#history_button').show()
+    }, 500)
 })();
